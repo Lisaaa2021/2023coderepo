@@ -2,6 +2,7 @@
 Lisa's code 2023
 
 0228_SRL_two_clf_pipeline.py
+
 Pipeline: We built a training and evaluation pipeline taking the training and evaluation datafiles in CoNLL-U Plus format and output two classification reports for each classifier following the below steps: 
 1) read in the data, extract features and labels; 
 2) store the features and labels in Pandas DataFrames and remove rows with predicates as tokens;
