@@ -1,7 +1,7 @@
-# 2023coderepo
-Lisa's code 2023
+# Project: 2023 code repo
 
-**0228_SRL_two_clf_pipeline.py**
+## Advanced NLP
+### 0228_SRL_two_clf_pipeline.py
 
 Pipeline: We built a training and evaluation pipeline taking the training and evaluation datafiles in CoNLL-U Plus format and output two classification reports for each classifier following the below steps: 
 1) read in the data, extract features and labels; 
