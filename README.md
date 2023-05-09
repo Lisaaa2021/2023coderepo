@@ -3,7 +3,7 @@
 ## Advanced NLP
 ### 0228_SRL_two_clf_pipeline.py
 
-__Task__: Semantic Role labeling by two step classification
+__Task__: Semantic Role labeling by argument identification by a binary classifier and classification by a multi-nominal classifier.
 
 __Pipeline description__:
 1) read in the data, extract features and labels;
