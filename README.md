@@ -14,7 +14,17 @@ __Pipeline description__:
 6) select a subset of evaluation data that were predicted as arguments by the first classifier and run evaluation on that subset.
 __Packaged used__: sklearn logistic regression model and one hot encoder
 
+
+
 ### 0310 Neural SRL
+__Task__: A BERT-based classifier for the NLP task of Semantic Role Labeling (SRL)
+__Pipeline description__: 
+1) initializing the hyperparameters, setting elements such as number of epochs, learning rate, and batch size
+2) Load the training and validation datasets, pad all sequences with attention mask tensor and padding predicate info
+__Packaged used__:
+Transformer BertForTokenClassfication
+
+
 
 ### 0430_Challenge_dataset_report.pdf
 
