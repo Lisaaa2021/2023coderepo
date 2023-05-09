@@ -3,7 +3,8 @@
 ## Advanced NLP
 ### 0228_SRL_two_clf_pipeline.py
 
-__Task__: Semantic Role labeling by two step classification 
+__Task__: Semantic Role labeling by two step classification
+
 __Pipeline description__:
 1) read in the data, extract features and labels;
 2) store the features and labels in Pandas DataFrames and remove rows with predicates as tokens;
