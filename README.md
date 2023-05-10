@@ -13,8 +13,9 @@ __Pipeline description__:
 5) evaluate the first classifier on the evaluation dataset;
 6) select a subset of evaluation data that were predicted as arguments by the first classifier and run evaluation on that subset.
 
-
-
+ <br> 
+ <br> 
+ <br> 
 
 ### 0310 Neural SRL
 __Task__: A BERT-based classifier for the NLP task of Semantic Role Labeling (SRL)  <br> 
@@ -23,15 +24,24 @@ __Pipeline description__:
 1) initializing the hyperparameters, setting elements such as number of epochs, learning rate, and batch size
 2) Load the training and validation datasets, pad all sequences with attention mask tensor and padding predicate info
 
-
-
+ <br> 
+ <br> 
+ <br> 
 
 ### 0430_Challenge_dataset_report.pdf
 
+ <br> 
+ <br> 
+ <br> 
 
 -------------
 ### 221223 Machine learning final submission
 Experiment 0-8
+
+
+ <br> 
+ <br> 
+ <br> 
 
 
 ## Reference
