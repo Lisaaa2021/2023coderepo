@@ -4,7 +4,7 @@
 ### 0228_SRL_two_clf_pipeline.py
 
 __Task__: Semantic Role labeling by argument identification by a binary classifier and classification by a multi-nominal classifier.
-
+__Packaged used__: sklearn logistic regression model and one hot encoder
 __Pipeline description__:
 1) read in the data, extract features and labels;
 2) store the features and labels in Pandas DataFrames and remove rows with predicates as tokens;
@@ -12,17 +12,18 @@ __Pipeline description__:
 4) train the second argument classifier using a subset of rows that are arguments;
 5) evaluate the first classifier on the evaluation dataset;
 6) select a subset of evaluation data that were predicted as arguments by the first classifier and run evaluation on that subset.
-__Packaged used__: sklearn logistic regression model and one hot encoder
+
 
 
 
 ### 0310 Neural SRL
 __Task__: A BERT-based classifier for the NLP task of Semantic Role Labeling (SRL)
+__Packaged used__:
+Transformer BertForTokenClassfication
 __Pipeline description__: 
 1) initializing the hyperparameters, setting elements such as number of epochs, learning rate, and batch size
 2) Load the training and validation datasets, pad all sequences with attention mask tensor and padding predicate info
-__Packaged used__:
-Transformer BertForTokenClassfication
+
 
 
 
