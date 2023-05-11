@@ -47,7 +47,7 @@ Experiment 0-8
 ## Reference
 https://www.makeareadme.com/
 
-## File description format
-__Task__:
-__Pipeline description__: 
-__Packaged used__:
+## File description format <br> 
+__Task__: <br> 
+__Pipeline description__:  <br> 
+__Packaged used__: <br> 
