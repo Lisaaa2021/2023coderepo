@@ -3,7 +3,7 @@
 ## Advanced NLP
 ### 0228_SRL_two_clf_pipeline.py
 
-__Task__: Semantic Role labeling by argument identification by a binary classifier and classification by a multi-nominal classifier. <br> 
+__Task__: Semantic Role labeling through 1) argument identification LR classifier 2) argument classification classifier
 __Packaged used__: sklearn logistic regression model and one hot encoder  <br> 
 __Pipeline description__:
 1) read in the data, extract features and labels;
@@ -18,7 +18,7 @@ __Pipeline description__:
  <br> 
 
 ### 0310 Neural SRL
-__Task__: A BERT-based classifier for the NLP task of Semantic Role Labeling (SRL)  <br> 
+__Task__: A BERT-based classifier for Semantic Role Labeling (SRL)  <br> 
 __Packaged used__: Transformer BertForTokenClassfication  <br> 
 __Pipeline description__: 
 1) initializing the hyperparameters, setting elements such as number of epochs, learning rate, and batch size
@@ -29,8 +29,16 @@ __Pipeline description__:
  <br> 
 
 ### 0430_Challenge_dataset_report.pdf
-
- <br> 
+__Task__: Apply checklist evaluation methodology for behavioral testing of two AllenNLP semantic role labeling models (BERT-based and Bi-LSTM).
+__Capabilities tested__:
+1) identify high position arguments
+2) Causative inchoative alteration
+3) Subordinate clause
+4) Long-span dependencies
+5) Voice
+6) NER
+7) POS
+8) Robustness
  <br> 
  <br> 
 
