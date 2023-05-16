@@ -43,14 +43,38 @@ __Capabilities tested__:
  <br> 
 
 -------------
-### 221223 Machine learning final submission
-Experiment 0-8
+### 1223 Machine learning final submission
+### Folder 1223_Experiments
+#### 0. Feature engineering.ipynb
+- contain the code that adds new features to the conll dataset (e.g. left, right token)
+*Below notebooks were organized roughly based on the time sequence of each experiment. The __development dataset__ was used in each notebook for evaluation.*
+#### 1. A basic system.ipynb
+#### 2. More features OHE & NB.ipynb
+#### 3. Hypertuning.ipynb
+#### 4. Word_Embeddings.ipynb
+#### 5. Feature Ablaton.ipynb
+#### 6. Dense & Sparse features.ipynb
+#### 7. CRF_dev_evaluation.ipynb
+#### 7. CRF.py
+- original crf script from assignment3
+#### 7. crf_dev_output.csv
+- output from executing 'CRF.py' on dev data
+#### 8. BERT_finetuner.ipynb
 
+<br />
 
- <br> 
- <br> 
- <br> 
-
+### Folder 1223_Experiments.util
+#### analysis_distribution.py
+- this script is to plot labels of train/dev dataset distribution
+#### a_mixed_system.py
+- script from containing functions combining dense and sparse features
+#### basic_evaluation.py
+- script from assignment1
+#### basic_system.py
+- script from assignment 1
+#### feature_extract.py
+- this script contains functions to extract left/right token, and assign capitalization type to each token
+#### ner_machine_learning.py
 
 ## Reference
 https://www.makeareadme.com/
