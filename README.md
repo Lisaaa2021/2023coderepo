@@ -2,7 +2,6 @@
 
 ## Advanced NLP
 ### 0228_SRL_two_clf_pipeline.py
-
 __Task__: Semantic Role labeling through 1) argument identification LR classifier 2) argument classification classifier
 __Packaged used__: sklearn logistic regression model and one hot encoder  <br> 
 __Pipeline description__:
@@ -40,10 +39,9 @@ __Capabilities tested__:
 7) POS
 8) Robustness
  <br> 
- <br> 
-
 -------------
 ### 1223 Machine learning final submission
+__Task__: This task aims to investigate the performance of different feature combinations and machine learning algorithms by experimenting with models for the CoNLL-2003 named-entity recognition shared task. During the experiments, we added new informative features, and trained SVM, Naive Bayes, Logistic regression, BERT, LSTM and CRF models on the training data, and ran them on the development data.
 ### Folder 1223_Experiments
 #### 0. Feature engineering.ipynb
 - contain the code that adds new features to the conll dataset (e.g. left, right token)
