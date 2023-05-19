@@ -45,7 +45,9 @@ __Task__: This task aims to investigate the performance of different feature com
 ### Folder 1223_Experiments
 #### 0. Feature engineering.ipynb
 - contain the code that adds new features to the conll dataset (e.g. left, right token)
-*Below notebooks were organized roughly based on the time sequence of each experiment. The __development dataset__ was used in each notebook for evaluation.*
+*Below notebooks were organized roughly based on the time sequence of each experiment. 
+<br>
+The __development dataset__ was used in each notebook for evaluation.*
 #### 1. A basic system.ipynb
 #### 2. More features OHE & NB.ipynb
 #### 3. Hypertuning.ipynb
