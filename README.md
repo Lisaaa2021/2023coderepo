@@ -30,6 +30,7 @@ __Pipeline description__:
 ### 0430_Challenge_dataset_report.pdf
 __Task__: Apply checklist evaluation methodology for behavioral testing of two AllenNLP semantic role labeling models (BERT-based and Bi-LSTM).
 <br>
+<br>
 __Capabilities tested__:
 1) identify high position arguments
 2) Causative inchoative alteration
