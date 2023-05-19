@@ -2,7 +2,7 @@
 
 
 ### 0430 AI and ethics project: a group project probing into ChatGPT's biases
-(4 slides about the technical approach to ChatGPT's components, made by Lisa)
+(Part 4: technical approach to ChatGPT's components made by Lisa)
 
  -----------------------
 
