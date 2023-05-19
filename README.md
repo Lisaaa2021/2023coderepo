@@ -1,6 +1,39 @@
 # Project: 2023 code repo
 
-## Advanced NLP
+
+### 0430 AI and ethics project: a group project probing into ChatGPT's biases
+ -----------------------
+
+
+### 0430_Challenge_dataset_report.pdf
+__Task__: Apply checklist evaluation methodology for behavioral testing of two AllenNLP semantic role labeling models (BERT-based and Bi-LSTM).
+<br>
+<br>
+__Capabilities tested__:
+1) identify high position arguments
+2) Causative inchoative alteration
+3) Subordinate clause
+4) Long-span dependencies
+5) Voice
+6) NER
+7) POS
+8) Robustness
+ <br> 
+ -----------------------
+
+### 0310 Neural SRL
+__Task__: A BERT-based classifier for Semantic Role Labeling (SRL)  <br> 
+__Packaged used__: Transformer BertForTokenClassfication  <br> 
+__Pipeline description__: 
+1) initializing the hyperparameters, setting elements such as number of epochs, learning rate, and batch size
+2) Load the training and validation datasets, pad all sequences with attention mask tensor and padding predicate info
+
+ <br> 
+ <br> 
+ <br> 
+ 
+ -----------------------
+ 
 ### 0228_SRL_two_clf_pipeline.py
 __Task__: Semantic Role labeling through 1) argument identification LR classifier 2) argument classification classifier <br>
 __Packaged used__: sklearn logistic regression model and one hot encoder  <br> 
@@ -15,37 +48,16 @@ __Pipeline description__:
  <br> 
  <br> 
  <br> 
+-----------------------
 
-### 0310 Neural SRL
-__Task__: A BERT-based classifier for Semantic Role Labeling (SRL)  <br> 
-__Packaged used__: Transformer BertForTokenClassfication  <br> 
-__Pipeline description__: 
-1) initializing the hyperparameters, setting elements such as number of epochs, learning rate, and batch size
-2) Load the training and validation datasets, pad all sequences with attention mask tensor and padding predicate info
-
- <br> 
- <br> 
- <br> 
-
-### 0430_Challenge_dataset_report.pdf
-__Task__: Apply checklist evaluation methodology for behavioral testing of two AllenNLP semantic role labeling models (BERT-based and Bi-LSTM).
-__Capabilities tested__:
-1) identify high position arguments
-2) Causative inchoative alteration
-3) Subordinate clause
-4) Long-span dependencies
-5) Voice
-6) NER
-7) POS
-8) Robustness
- <br> 
--------------
 ### 1223 Machine learning final submission
 __Task__: This task aims to investigate the performance of different feature combinations and machine learning algorithms by experimenting with models for the CoNLL-2003 named-entity recognition shared task. During the experiments, we added new informative features, and trained SVM, Naive Bayes, Logistic regression, BERT, LSTM and CRF models on the training data, and ran them on the development data.
 ### Folder 1223_Experiments
 #### 0. Feature engineering.ipynb
 - contain the code that adds new features to the conll dataset (e.g. left, right token)
-*Below notebooks were organized roughly based on the time sequence of each experiment. The __development dataset__ was used in each notebook for evaluation.*
+*Below notebooks were organized roughly based on the time sequence of each experiment. 
+<br>
+The __development dataset__ was used in each notebook for evaluation.*
 #### 1. A basic system.ipynb
 #### 2. More features OHE & NB.ipynb
 #### 3. Hypertuning.ipynb
