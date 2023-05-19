@@ -2,7 +2,9 @@
 
 
 ### 0430 AI and ethics project: a group project probing into ChatGPT's biases
---------------------
+ -----------------------
+
+
 ### 0430_Challenge_dataset_report.pdf
 __Task__: Apply checklist evaluation methodology for behavioral testing of two AllenNLP semantic role labeling models (BERT-based and Bi-LSTM).
 <br>
@@ -17,7 +19,9 @@ __Capabilities tested__:
 7) POS
 8) Robustness
  <br> 
--------------
+ -----------------------
+
+
 ### 0310 Neural SRL
 __Task__: A BERT-based classifier for Semantic Role Labeling (SRL)  <br> 
 __Packaged used__: Transformer BertForTokenClassfication  <br> 
