@@ -21,7 +21,6 @@ __Capabilities tested__:
  <br> 
  -----------------------
 
-
 ### 0310 Neural SRL
 __Task__: A BERT-based classifier for Semantic Role Labeling (SRL)  <br> 
 __Packaged used__: Transformer BertForTokenClassfication  <br> 
@@ -32,7 +31,9 @@ __Pipeline description__:
  <br> 
  <br> 
  <br> 
+ 
  -----------------------
+ 
 ### 0228_SRL_two_clf_pipeline.py
 __Task__: Semantic Role labeling through 1) argument identification LR classifier 2) argument classification classifier <br>
 __Packaged used__: sklearn logistic regression model and one hot encoder  <br> 
@@ -48,6 +49,7 @@ __Pipeline description__:
  <br> 
  <br> 
 -----------------------
+
 ### 1223 Machine learning final submission
 __Task__: This task aims to investigate the performance of different feature combinations and machine learning algorithms by experimenting with models for the CoNLL-2003 named-entity recognition shared task. During the experiments, we added new informative features, and trained SVM, Naive Bayes, Logistic regression, BERT, LSTM and CRF models on the training data, and ran them on the development data.
 ### Folder 1223_Experiments
