@@ -32,8 +32,8 @@ __Pipeline description__:
 2) Load the training and validation datasets, pad all sequences with attention mask tensor and padding predicate info
 
 <br>
-------------------------------
 
+ -----------------------
 
 ### 0228_SRL_two_clf_pipeline.py
 __Task__: Semantic Role labeling through 1) argument identification LR classifier 2) argument classification classifier <br>
@@ -47,7 +47,8 @@ __Pipeline description__:
 6) select a subset of evaluation data that were predicted as arguments by the first classifier and run evaluation on that subset.
 
 <br>
---------------------------------
+
+ -----------------------
 
 ### 1223 Machine learning final submission
 __Task__: This task aims to investigate the performance of different feature combinations and machine learning algorithms by experimenting with models for the CoNLL-2003 named-entity recognition shared task. During the experiments, we added new informative features, and trained SVM, Naive Bayes, Logistic regression, BERT, LSTM and CRF models on the training data, and ran them on the development data.
