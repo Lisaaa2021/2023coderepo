@@ -30,8 +30,9 @@ __Packaged used__: Transformer BertForTokenClassfication  <br>
 __Pipeline description__:
 1) initializing the hyperparameters, setting elements such as number of epochs, learning rate, and batch size
 2) Load the training and validation datasets, pad all sequences with attention mask tensor and padding predicate info
+
 <br>
- ------------------------------
+------------------------------
 
 
 ### 0228_SRL_two_clf_pipeline.py
